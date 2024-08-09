@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
-const systemPrompt = `you are an AI-powered customer support assistant for a small business that helps navigate people to their destination with the least amount of turns in the least amount of time`
+const systemPrompt = `you are an AI-powered customer support assistant for a small business that helps navigate people to their destination with the least amount of turns in the least amount of time`;
 
 export async function POST(req) {
     try {
